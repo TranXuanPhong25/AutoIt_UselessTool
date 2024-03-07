@@ -91,7 +91,7 @@ func extractPhoneNumber($str)
 	return	StringRegExp($str, "\d{9}",1)
 EndFunc
 func graphAPI($path,$dir,$method)
-	local $page_token = "EAAKmZACMoEjABAMVPZC7MFBDnHecp2vxZBTDk9ONjk16eWIubYEKEWfVbgfBZCxIYZBhEyzn5YmE8MlZCZCqUZCFfi3RPJmZB4jeNtWcxw3FZBwL41543dx08G19VO8QVVfWybpYMN2UBWZBTpQcEyOxZCqkNHXb1fFZBtHOuJOOzm5LvvPdx9eUBhhfr"
+	#local $page_token = 
 
 	global $ohttp = ObjCreate("WinHttp.WinHttpRequest.5.1")
 	Local $req = "https://graph.facebook.com/" & $path
